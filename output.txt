@@ -1,0 +1,15 @@
+Task completed successfully!
+
+1. React app created using create-react-app
+2. GitHub repo created: https://github.com/sanjana-sharma29/propeller-react-app
+3. Branch 'update_logo' created
+4. Propeller logo added to public folder (propeller.svg)
+5. App.js updated to use the new logo and link
+6. PR created and merged from 'update_logo' to 'main'
+7. command.sh file added with all commands
+
+Output:
+
+- React app runs at http://localhost:3000
+- Propeller Aero logo is visible
+- Link points to: https://www.propelleraero.com/dirtmate/
