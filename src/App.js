@@ -1,18 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* Use public folder path */}
+        <img src={`${process.env.PUBLIC_URL}/logo.svg`} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-        href="https://www.propelleraero.com/dirtmate/"
-
+          href="https://www.propelleraero.com/dirtmate/"
           target="_blank"
           rel="noopener noreferrer"
         >
